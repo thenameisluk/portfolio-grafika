@@ -1,0 +1,68 @@
+@font-face {
+  font-family: dense; /* set name */
+  src: url(./Manrope-VariableFont_wght.ttf); /* url of the font */
+}
+
+body {
+    display: block;
+    width: 100%;
+    height: fit-content;
+    color: white;
+    background-color: rgb(15, 15, 25);
+    font-family: dense; /* use font */
+}
+
+com{
+    font-size: 75%;
+    font-weight: 200;
+    margin: 2mm;
+}
+titl{
+    font-size: 300%;
+    margin: 2mm;
+    font-weight: bolder;
+}
+stitl{
+    font-size: 150%;
+    margin: 2mm;
+    font-weight: 600;
+}
+imgg{
+    display: flex;
+    max-width: 90%;
+}
+txt{
+    font-weight: 300;
+    display: block;
+    margin: 2mm;
+}
+
+img{
+    width: 90%;
+    margin: 2mm;
+}
+.roud{
+    border-radius: 2mm;
+}
+
+.frame{
+    border-radius: 2mm;
+    border-style: solid;
+    border-width: 1mm;
+    border-color: white;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    font-size: 200%;
+    font-weight: bold;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    min-width: 90%;
+    width: fit-content;
+    max-width: 10cm;
+}
